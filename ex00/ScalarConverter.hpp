@@ -10,12 +10,12 @@
 class	ScalarConverter
 {
 public:
+	static void	convert(char const *conver);
+private:
 	ScalarConverter();
 	ScalarConverter(const ScalarConverter &other);
 	ScalarConverter &operator=(ScalarConverter const &other); 
 	~ScalarConverter();
-	static void	convert(char const *conver);
-private:
 };
 
 #endif
